@@ -3,15 +3,13 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 const Jumbotron = (props) => {
-	return <div className="jumbotron">
-			<h1 class="display-4">{props.title}</h1>
-			<p class="lead">{props.description}</p>
-			<hr className="my-4" />
-			<a class="btn btn-primary btn-lg" href={props.buttonURL} role="button">
+	return <div className="jumbotron m-5">
+			<h1 className="display-4">{props.title}</h1>
+			<p className="lead">{props.description}</p>
+			<a className="btn btn-primary btn-lg" href={props.buttonURL} role="button">
 				{props.buttonLabel}
 			</a>
-		</div>
-	;
+		</div>;
 };
 
 Jumbotron.propTypes = {
