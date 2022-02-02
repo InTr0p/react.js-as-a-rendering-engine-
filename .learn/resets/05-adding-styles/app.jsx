@@ -5,9 +5,6 @@ import PropTypes from "prop-types";
 //add the styles here
 const mySuperStyles = {
 
-	background:"black",
-    fontSize:"16px",
-    border:"1px solid yellow"
 };
 
 const Badge = props => {
